@@ -1,0 +1,83 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: 	#19284C;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+/* Centro la imagen horizontalmente */
+header img {
+    ;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Esto centra horizontalmente la imagen */
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+nav {
+    text-align: center;
+    background-color: #ffffff;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    color: 	#19284C;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FF6B6B;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #FF4545;
+}
